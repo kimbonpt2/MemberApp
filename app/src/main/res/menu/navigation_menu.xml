@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_members"
+        android:icon="@drawable/members"
+        android:title="Members" />
+    <item
+        android:id="@+id/nav_projects"
+        android:icon="@drawable/projects"
+        android:title="Projects" />
+    <item
+        android:id="@+id/nav_properties"
+        android:icon="@drawable/properties"
+        android:title="Properties" />
+    <item
+        android:id="@+id/nav_schedules"
+        android:icon="@drawable/schedules"
+        android:title="Schedules" />
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/logout"
+        android:title="Logout" />
+</menu>

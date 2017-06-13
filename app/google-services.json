@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "584141957927",
+    "firebase_url": "https://member-823f9.firebaseio.com",
+    "project_id": "member-823f9",
+    "storage_bucket": "member-823f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584141957927:android:9520d6a08bd491d7",
+        "android_client_info": {
+          "package_name": "com.maiatech.member"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "584141957927-9pbaccbluq272enu31oa8oj3c34q61qj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.maiatech.member",
+            "certificate_hash": "8402503f707c4cd8744de211f6f926f7c017dfdb"
+          }
+        },
+        {
+          "client_id": "584141957927-ja34vuj4eiuu4cs6apvnogun04850hob.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.maiatech.member",
+            "certificate_hash": "6a2150e0ac145d6b6cec2d2673812a0c6711e81c"
+          }
+        },
+        {
+          "client_id": "584141957927-tn0gm80dusmgdhbr9rvj4td2isqu5tc8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDchkpTkQr5nKaC8TBLrnQKTAGSvoNug_Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "584141957927-tn0gm80dusmgdhbr9rvj4td2isqu5tc8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

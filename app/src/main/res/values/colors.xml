@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF7B485B</color>
+    <color name="colorPrimaryDark">#603545</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorNavigation">#c3a9a9</color>
+    <color name="layout_member">#7b485b</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="button_Trans">#00b4fcf0</color>
+    <color name="gray">#d4d2d3</color>
+
+</resources>
