@@ -15,7 +15,7 @@ public class AddMemberActivity extends AppCompatActivity {
 
     DatabaseReference mData;
     FirebaseDatabase database;
-    //    String memberId;
+    String memberId;
     String mName, mRegency, mPhone, mAge, mAddress, mEmail, mFacebok, mSkype, mAvatar;
     Member member;
 
@@ -26,7 +26,7 @@ public class AddMemberActivity extends AppCompatActivity {
         database = FirebaseDatabase.getInstance();
         mData = database.getReference();
 
-//        memberId = mData.push().getKey();
+        memberId = mData.push().getKey();
 
         edtName = (EditText) findViewById(R.id.edtName);
         edtRegency = (EditText) findViewById(R.id.edtRegency);
@@ -50,7 +50,6 @@ public class AddMemberActivity extends AppCompatActivity {
                 mEmail = edtEmail.getText().toString();
                 mFacebok = edtFacebook.getText().toString();
                 mSkype = edtSkype.getText().toString();
-
                 addNewMember();
                 finish();
             }
@@ -59,6 +58,6 @@ public class AddMemberActivity extends AppCompatActivity {
 
     public void addNewMember() {
         member = new Member(mName, mRegency, mAge, mPhone, mAddress, mEmail, mFacebok, mSkype, mAvatar);
-        mData.child("member").push().setValue(member);
+        mData.child(memberId).setValue(member);
     }
 }
